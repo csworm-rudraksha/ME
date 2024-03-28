@@ -1,0 +1,240 @@
+body,html{
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+:root {
+    --beige: beige;
+    --white: #ffffff; 
+}
+  
+.card {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    z-index: 1;
+    margin-top: -60px;
+    padding: 0;
+    box-shadow: 0 0 15px rgba(29, 29, 29, 0.8);
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    margin: 0;
+    background-color: #363737;
+    width: 100%;
+    margin: -1px;
+    margin-right: -1px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+  
+#name,#short{
+    font-weight: 400;
+    color: beige;
+    margin-top: -10px;
+}   
+
+#education{
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    color: beige;
+}
+#skills{
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    color: beige;
+}
+
+#profileimg{
+    width: 200px;
+    margin-top: 10px;
+    border: 2px beige solid;
+    border-radius: 50%;
+}
+#header{
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+}
+#about{
+    /* background-color: #2d2d2d; */
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    color: beige;
+}
+#projects{
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px;
+    color: beige;
+}
+.navbar{
+    background-color: #151515;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px ;
+    
+}
+span{
+    color: aquamarine;
+}
+
+.break{
+    color:aquamarine;
+    /* background-color: #2d2d2d; */
+}
+.mid{
+    margin-top: -70px;
+}
+.break1{
+    width: 20%;
+    background-color: aquamarine;
+}
+#me{
+    width: 90%;
+}
+#first{
+    width: 90%;
+}
+#techstack{
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+}
+#edimg{
+    width: 90%;
+}
+@media (min-width: 900px) {
+    .break1{
+        display: none;
+        
+    }
+    #me{
+        width: 60%;
+    }
+    #techstack{
+        width: 60%;
+        height: fit-content;
+        padding: 10px;
+    }
+    #first{
+        width: 60%;
+        
+    }
+    #edimg{
+        width: 80%;
+    }
+    #profileimg{
+        width: 300px;
+    }
+
+}
+#contact{
+    /* background-color: #2d2d2d; */
+    width: 100%;
+    height: 100%;
+    /* Add your background pattern here */
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px
+}
+#footer{
+    margin-top:-40px ;
+    margin-bottom: -70px;
+}
+#aboutbtn{
+   background-color:#1E1E1E;
+}
+#college{
+    height: 300px;
+    width: 100%;
+}
+#collegediv{
+    margin: auto;
+    width: 80%;
+}
+#schooldiv{
+    margin: auto;
+    width: 80%;
+}
+#date{
+    float: right;
+}
+#linkedin-container {
+    background-color: rgb(2, 103, 186);
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+
+    transform-origin: bottom;
+    padding:5px;
+
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 999; /* Set a higher z-index value */
+}
+
+#linkedin-container h3 {
+    margin: 0;
+}
+
